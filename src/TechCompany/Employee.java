@@ -9,6 +9,14 @@ public class Employee {
         this.title = title;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getTitle(){
+        return title;
+    }
+
     public void work() {
         System.out.println(name + " is working as a " + title);
     }
